@@ -54180,7 +54180,7 @@ function debug(msg) {
 }
 exports.debug = debug;
 function info(msg) {
-    core.info(LOG_HEADER + ' ' + msg);
+    core.debug(LOG_HEADER + ' ' + msg);
 }
 exports.info = info;
 function error(msg) {
