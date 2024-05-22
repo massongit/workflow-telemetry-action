@@ -11,7 +11,7 @@ export function debug(msg: string) {
 }
 
 export function info(msg: string) {
-  core.info(LOG_HEADER + ' ' + msg)
+  core.debug(LOG_HEADER + ' ' + msg)
 }
 
 export function error(msg: string | Error) {
